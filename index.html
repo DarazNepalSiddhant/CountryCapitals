@@ -1,0 +1,353 @@
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        #win,
+        #lose,
+        #Question02,
+        #Question03,
+        #Question04,
+        #Question05,
+        #Question06,
+        #Question07,
+        #Question08,
+        #Question09,
+        #Question10,
+        #case00,
+        #case01,
+        #case02,
+        #case03,
+        #case04,
+        #case05,
+        #case06,
+        #case07,
+        #case08,
+        #case09,
+        #case10 {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row" id="Question01">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1shUcArY1gK0jSZTEXXXDQVXa-718-558.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q1A1"><img src="https://img.alicdn.com/tfs/TB14cMcAEY1gK0jSZFCXXcwqXXa-718-185.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q1A2"><img src="https://img.alicdn.com/tfs/TB184z.Axn1gK0jSZKPXXXvUXXa-718-183.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q1A3"><img src="https://img.alicdn.com/tfs/TB1LEP.Arr1gK0jSZR0XXbP8XXa-718-160.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q1A4"><img src="https://img.alicdn.com/tfs/TB1WU__AEH1gK0jSZSyXXXtlpXa-718-264.png" class="img-responsive"></a>
+            </div>
+        </div>
+        <div class="row" id="Question02" style="display: none;">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1JOLUApP7gK0jSZFjXXc5aXXa-718-276.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1Ki_ZAxD1gK0jSZFKXXcJrVXa-718-256.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q2A1"><img src="https://img.alicdn.com/tfs/TB1WSjUAxD1gK0jSZFsXXbldVXa-718-208.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q2A2"><img src="https://img.alicdn.com/tfs/TB1PCNbcsKfxu4jSZPfXXb3dXXa-718-176.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q2A3"><img src="https://img.alicdn.com/tfs/TB1xGfWArr1gK0jSZR0XXbP8XXa-718-176.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q2A4"><img src="https://img.alicdn.com/tfs/TB1FJfZAAL0gK0jSZFxXXXWHVXa-718-258.png" class="img-responsive"></a>
+            </div>
+        </div>
+        <div class="row" id="Question03" style="display: none;">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1CvTVAEH1gK0jSZSyXXXtlpXa-718-276.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1gebUApY7gK0jSZKzXXaikpXa-718-256.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q3A1"><img src="https://img.alicdn.com/tfs/TB1GiYWArr1gK0jSZFDXXb9yVXa-718-208.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q3A2"><img src="https://img.alicdn.com/tfs/TB1eybZAy_1gK0jSZFqXXcpaXXa-718-176.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q3A3"><img src="https://img.alicdn.com/tfs/TB1J2TVAxD1gK0jSZFsXXbldVXa-718-176.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q3A4"><img src="https://img.alicdn.com/tfs/TB1vkHYAuH2gK0jSZFEXXcqMpXa-718-258.png" class="img-responsive"></a>
+            </div>
+        </div>
+        <div class="row" id="Question04" style="display: none;">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1OBP5ACf2gK0jSZFPXXXsopXa-718-307.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1Tz28AEY1gK0jSZFCXXcwqXXa-718-239.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q4A1"><img src="https://img.alicdn.com/tfs/TB11e_8AxD1gK0jSZFKXXcJrVXa-718-201.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q4A2"><img src="https://img.alicdn.com/tfs/TB19E_6AAY2gK0jSZFgXXc5OFXa-718-213.png" class="img-responsive"></a>
+            </div>
+        </div>
+        <div class="row" id="Question05" style="display: none;">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1NWH9AEY1gK0jSZFCXXcwqXXa-718-307.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1dl24AEH1gK0jSZSyXXXtlpXa-718-239.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q5A1"><img src="https://img.alicdn.com/tfs/TB1khL.Arj1gK0jSZFuXXcrHpXa-718-201.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q5A2"><img src="https://img.alicdn.com/tfs/TB1NB_6AET1gK0jSZFhXXaAtVXa-718-213.png" class="img-responsive"></a>
+            </div>
+        </div>
+        <div class="row" id="Question06" style="display: none;">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1eJv9AEY1gK0jSZFCXXcwqXXa-718-276.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1Qav9ArH1gK0jSZFwXXc7aXXa-718-256.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q6A1"><img src="https://img.alicdn.com/tfs/TB105D7AAY2gK0jSZFgXXc5OFXa-718-208.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q6A2"><img src="https://img.alicdn.com/tfs/TB1IkY.Arj1gK0jSZFuXXcrHpXa-718-176.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q6A3"><img src="https://img.alicdn.com/tfs/TB16C8kcsKfxu4jSZPfXXb3dXXa-718-176.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q6A4"><img src="https://img.alicdn.com/tfs/TB1MDH5AAP2gK0jSZPxXXacQpXa-718-258.png" class="img-responsive"></a>
+            </div>
+        </div>
+        <div class="row" id="Question07" style="display: none;">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1LvD_AAT2gK0jSZFkXXcIQFXa-718-276.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1ZbP9AxD1gK0jSZFKXXcJrVXa-718-256.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q7A1"><img src="https://img.alicdn.com/tfs/TB1Ahz5Axz1gK0jSZSgXXavwpXa-718-208.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q7A2"><img src="https://img.alicdn.com/tfs/TB1HLr4Avb2gK0jSZK9XXaEgFXa-718-176.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q7A3"><img src="https://img.alicdn.com/tfs/TB196QbABr0gK0jSZFnXXbRRXXa-718-176.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q7A4"><img src="https://img.alicdn.com/tfs/TB1FZH6AEY1gK0jSZFMXXaWcVXa-718-258.png" class="img-responsive"></a>
+            </div>
+        </div>
+        <div class="row" id="Question08" style="display: none;">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1fTP_Aq61gK0jSZFlXXXDKFXa-718-276.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1.kf4AEz1gK0jSZLeXXb9kVXa-718-256.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q8A1"><img src="https://img.alicdn.com/tfs/TB1zer6AEY1gK0jSZFMXXaWcVXa-718-208.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q8A2"><img src="https://img.alicdn.com/tfs/TB1pUL5AET1gK0jSZFrXXcNCXXa-718-176.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q8A3"><img src="https://img.alicdn.com/tfs/TB1aMr6Arr1gK0jSZR0XXbP8XXa-718-176.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q8A4"><img src="https://img.alicdn.com/tfs/TB1eBL9AAT2gK0jSZPcXXcKkpXa-718-258.png" class="img-responsive"></a>
+            </div>
+        </div>
+        <div class="row" id="Question09" style="display: none;">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB14sL5AuL2gK0jSZPhXXahvXXa-718-307.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1JIr_Arj1gK0jSZFOXXc7GpXa-718-239.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q9A1"><img src="https://img.alicdn.com/tfs/TB1B7n7AuH2gK0jSZFEXXcqMpXa-718-201.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q9A2"><img src="https://img.alicdn.com/tfs/TB1UTL5Axz1gK0jSZSgXXavwpXa-718-213.png" class="img-responsive"></a>
+            </div>
+        </div>
+        <div class="row" id="Question10" style="display: none;">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB18L65AAL0gK0jSZFtXXXQCXXa-718-276.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB18rP7ACf2gK0jSZFPXXXsopXa-718-256.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q10A1"><img src="https://img.alicdn.com/tfs/TB1p5j4ApY7gK0jSZKzXXaikpXa-718-208.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q10A2"><img src="https://img.alicdn.com/tfs/TB1cYwcABr0gK0jSZFnXXbRRXXa-718-176.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q10A3"><img src="https://img.alicdn.com/tfs/TB1MWz_AEY1gK0jSZFCXXcwqXXa-718-176.png" class="img-responsive"></a>
+            </div>
+            <div class="col-sm-12 col-xs-12">
+                <a id="Q10A4"><img src="https://img.alicdn.com/tfs/TB1Is_5AuT2gK0jSZFvXXXnFXXa-718-258.png" class="img-responsive"></a>
+            </div>
+        </div>
+        <div class="row" id="case00">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1QkT.Avb2gK0jSZK9XXaEgFXa-718-960.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <iframe src="https://daraz.formstack.com/forms/can_you_name_all_the_country_capitals_np" title="Can you name all the country capitals?" width="100%" height="560" frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="row" id="case01">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB19xIeAuL2gK0jSZFmXXc7iXXa-718-960.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <iframe src="https://daraz.formstack.com/forms/can_you_name_all_the_country_capitals_np" title="Can you name all the country capitals?" width="100%" height="560" frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="row" id="case02">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1fscfArj1gK0jSZFOXXc7GpXa-718-960.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <iframe src="https://daraz.formstack.com/forms/can_you_name_all_the_country_capitals_np" title="Can you name all the country capitals?" width="100%" height="560" frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="row" id="case03">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1rbMbAxn1gK0jSZKPXXXvUXXa-718-960.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <iframe src="https://daraz.formstack.com/forms/can_you_name_all_the_country_capitals_np" title="Can you name all the country capitals?" width="100%" height="560" frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="row" id="case04">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1AI.aAuT2gK0jSZFvXXXnFXXa-718-960.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <iframe src="https://daraz.formstack.com/forms/can_you_name_all_the_country_capitals_np" title="Can you name all the country capitals?" width="100%" height="560" frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="row" id="case05">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1o..gAAT2gK0jSZFkXXcIQFXa-718-960.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <iframe src="https://daraz.formstack.com/forms/can_you_name_all_the_country_capitals_np" title="Can you name all the country capitals?" width="100%" height="560" frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="row" id="case06">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1esZdACf2gK0jSZFPXXXsopXa-718-960.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <iframe src="https://daraz.formstack.com/forms/can_you_name_all_the_country_capitals_np" title="Can you name all the country capitals?" width="100%" height="560" frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="row" id="case07">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1v6EgAxD1gK0jSZFyXXciOVXa-718-960.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <iframe src="https://daraz.formstack.com/forms/can_you_name_all_the_country_capitals_np" title="Can you name all the country capitals?" width="100%" height="560" frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="row" id="case08">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1nJglABr0gK0jSZFnXXbRRXXa-718-960.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <iframe src="https://daraz.formstack.com/forms/can_you_name_all_the_country_capitals_np" title="Can you name all the country capitals?" width="100%" height="560" frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="row" id="case09">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1Cd.lABr0gK0jSZFnXXbRRXXa-718-960.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <iframe src="https://daraz.formstack.com/forms/can_you_name_all_the_country_capitals_np" title="Can you name all the country capitals?" width="100%" height="560" frameborder="0"></iframe>
+            </div>
+        </div>
+        <div class="row" id="case10">
+            <div class="col-sm-12 col-xs-12"> <img src="https://img.alicdn.com/tfs/TB1z8ZbAxD1gK0jSZFsXXbldVXa-718-960.png" class="img-responsive"> </div>
+            <div class="col-sm-12 col-xs-12">
+                <iframe src="https://daraz.formstack.com/forms/can_you_name_all_the_country_capitals_np" title="Can you name all the country capitals?" width="100%" height="560" frameborder="0"></iframe>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                var correct = 0;
+                $("#Q1A1, #Q1A2, #Q1A3, #Q1A4").click(function() {
+                    console.log($(this).attr("id"));
+                    if ($(this).attr("id") == "Q1A3")
+                        correct = correct + 1;
+                    $("#Question01").hide();
+                    $("#Question02").css("display", "block");
+                });
+                $("#Q2A1, #Q2A2, #Q2A3, #Q2A4").click(function() {
+                    if ($(this).attr("id") == "Q2A2")
+                        correct = correct + 1;
+                    $("#Question02").hide();
+                    $("#Question03").css("display", "block");
+                });
+                $("#Q3A1, #Q3A2, #Q3A3, #Q3A4").click(function() {
+                    if ($(this).attr("id") == "Q3A2")
+                        correct = correct + 1;
+                    $("#Question03").hide();
+                    $("#Question04").css("display", "block");
+                });
+                $("#Q4A1, #Q4A2, #Q4A3, #Q4A4").click(function() {
+                    if ($(this).attr("id") == "Q4A2")
+                        correct = correct + 1;
+                    $("#Question04").hide();
+                    $("#Question05").css("display", "block");
+                });
+                $("#Q5A1, #Q5A2, #Q5A3, #Q5A4").click(function() {
+                    if ($(this).attr("id") == "Q5A2")
+                        correct = correct + 1;
+                    $("#Question05").hide();
+                    $("#Question06").css("display", "block");
+                });
+                $("#Q6A1, #Q6A2, #Q6A3, #Q6A4").click(function() {
+                    if ($(this).attr("id") == "Q6A3")
+                        correct = correct + 1;
+                    $("#Question06").hide();
+                    $("#Question07").css("display", "block");
+                });
+                $("#Q7A1, #Q7A2, #Q7A3, #Q7A4").click(function() {
+                    if ($(this).attr("id") == "Q7A1")
+                        correct = correct + 1;
+                    $("#Question07").hide();
+                    $("#Question08").css("display", "block");
+                });
+                $("#Q8A1, #Q8A2, #Q8A3, #Q8A4").click(function() {
+                    if ($(this).attr("id") == "Q8A1")
+                        correct = correct + 1;
+                    $("#Question08").hide();
+                    $("#Question09").css("display", "block");
+                });
+                $("#Q9A1, #Q9A2, #Q9A3, #Q9A4").click(function() {
+                    if ($(this).attr("id") == "Q9A2")
+                        correct = correct + 1;
+                    $("#Question09").hide();
+                    $("#Question10").css("display", "block");
+                });
+                $("#Q10A1, #Q10A2, #Q10A3, #Q10A4").click(function() {
+                    if ($(this).attr("id") == "Q10A2")
+                        correct = correct + 1;
+                    $("#Question10").hide();
+                    showCase();
+                });
+
+                function showCase() {
+                    switch (correct) {
+                        case 0:
+                            $("#case00").css("display", "block");
+                            break;
+                        case 1:
+                            $("#case01").css("display", "block");
+                            break;
+                        case 2:
+                            $("#case02").css("display", "block");
+                            break;
+                        case 3:
+                            $("#case03").css("display", "block");
+                            break;
+                        case 4:
+                            $("#case04").css("display", "block");
+                            break;
+                        case 5:
+                            $("#case05").css("display", "block");
+                            break;
+                        case 6:
+                            $("#case06").css("display", "block");
+                            break;
+                        case 7:
+                            $("#case07").css("display", "block");
+                            break;
+                        case 8:
+                            $("#case08").css("display", "block");
+                            break;
+                        case 9:
+                            $("#case09").css("display", "block");
+                            break;
+                        case 10:
+                            $("#case10").css("display", "block");
+                            break;
+                    }
+                }
+            });
+        </script>
+</body>
+
+</html>
